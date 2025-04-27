@@ -1,2 +1,2 @@
-# Wishlist
-This is a web-Wishlist for people's bds.
+# Diary
+This is a diary.
