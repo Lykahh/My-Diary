@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Личный дневник</title>
+    <title>My Diary</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="loginScreen">
-    <h2>Вход в личный дневник</h2>
-    <input type="text" id="username" placeholder="Имя пользователя">
-    <input type="password" id="password" placeholder="Пароль">
-    <button onclick="login()">Войти</button>
+<div id="loginScreen" class="card">
+    <h2>Welcome Back!</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
 </div>
 
-<div id="diaryScreen" style="display: none;">
-    <h2>Твой дневник</h2>
-    <textarea id="newEntry" placeholder="Новая запись..."></textarea>
-    <button onclick="addEntry()">Добавить запись</button>
+<div id="diaryScreen" class="card" style="display: none;">
+    <h2>My Diary</h2>
+    <textarea id="newEntry" placeholder="Write something..."></textarea>
+    <button onclick="addEntry()">Add Entry</button>
     <div id="entries"></div>
-    <button onclick="logout()" class="logout-btn">Выйти</button>
+    <button onclick="logout()" class="logout-btn">Logout</button>
 </div>
 
 <script src="script.js"></script>
