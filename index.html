@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный дневник</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginScreen">
+    <h2>Вход в личный дневник</h2>
+    <input type="text" id="username" placeholder="Имя пользователя">
+    <input type="password" id="password" placeholder="Пароль">
+    <button onclick="login()">Войти</button>
+</div>
+
+<div id="diaryScreen" style="display: none;">
+    <h2>Твой дневник</h2>
+    <textarea id="newEntry" placeholder="Новая запись..."></textarea>
+    <button onclick="addEntry()">Добавить запись</button>
+    <div id="entries"></div>
+    <button onclick="logout()" class="logout-btn">Выйти</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
