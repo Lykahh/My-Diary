@@ -1,2 +1,2 @@
 # Diary
-This is a diary.
+<p> This is an online diary with saving system!</p>
