@@ -8,7 +8,7 @@ function login() {
         return;
     }
 
-    // Сохраняем данные пользователя
+    
     const users = JSON.parse(localStorage.getItem('users') || '{}');
     if (!users[username]) {
         users[username] = { password: password, entries: [] };
